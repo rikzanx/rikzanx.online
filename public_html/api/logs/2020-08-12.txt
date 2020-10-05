@@ -1,0 +1,35 @@
+Time : 16:13:47
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+Raw SQL : SELECT * FROM user where user_id=1
+
+Time : 02:13:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com,erik12345)' at line 1
+Raw SQL : INSERT INTO user(id,nama,email,password) values(NULL,dsd,muhammadrikzan31@gmail.com,erik12345)
+
+Time : 02:11:24
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO user(id,nama,email,password) values(:i,:n,:e,:p)
+
+Time : 01:48:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= muhammadrikzan31@gmail.com' at line 1
+Raw SQL : select * from userwhere email = muhammadrikzan31@gmail.com
+
+Time : 01:48:43
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= muhammadrikzan31@gmail.com' at line 1
+Raw SQL : select * from userwhere email = muhammadrikzan31@gmail.com
+
+Time : 01:45:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'muhammadrikzan31@gmail.com'' at line 1
+Raw SQL : select * from userwhere email = 'muhammadrikzan31@gmail.com'
+
+Time : 01:45:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= muhammadrikzan31@gmail.com' at line 1
+Raw SQL : select * from userwhere email = muhammadrikzan31@gmail.com
+
+Time : 01:43:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= muhammadrikzan31@gmail.com' at line 1
+Raw SQL : select * from userwhere email = muhammadrikzan31@gmail.com
+
+Time : 01:43:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'muhammadrikzan31@gmail.com'' at line 1
+Raw SQL : select * from userwhere email = 'muhammadrikzan31@gmail.com'
